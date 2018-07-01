@@ -13,6 +13,7 @@
 		E215BD7320E691BB00682951 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E215BD7120E691BB00682951 /* Main.storyboard */; };
 		E215BD7520E691BD00682951 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E215BD7420E691BD00682951 /* Assets.xcassets */; };
 		E215BD7820E691BD00682951 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E215BD7620E691BD00682951 /* LaunchScreen.storyboard */; };
+		E2A8577A20E8B3E700B25924 /* Droppablepin.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A8577920E8B3E700B25924 /* Droppablepin.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		E215BD7420E691BD00682951 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E215BD7720E691BD00682951 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E215BD7920E691BD00682951 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2A8577920E8B3E700B25924 /* Droppablepin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Droppablepin.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 		E215BD8120E6923500682951 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				E2A8577920E8B3E700B25924 /* Droppablepin.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -242,6 +245,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2A8577A20E8B3E700B25924 /* Droppablepin.swift in Sources */,
 				E215BD7020E691BB00682951 /* MapVC.swift in Sources */,
 				E215BD6E20E691BB00682951 /* AppDelegate.swift in Sources */,
 			);
